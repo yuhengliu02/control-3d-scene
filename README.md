@@ -1,6 +1,6 @@
 <img src="https://yuheng.ink/project-page/control-3d-scene/images/logo.png" height="75px" align="left"> 
 
-# Controllable 3D Outdoor Scene Generation
+# Controllable 3D Outdoor Scene Generation via Scene Graphs
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=yuheng-control-3d-scene&label=Visitors&countColor=%23fedcba&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=yuheng-control-3d-scene)
 
@@ -10,4 +10,5 @@ Three-dimensional scene generation is crucial in computer vision, with applicati
 
 ## NEWS
 
+- [2025/03/10] Our work is now on [arXiv](https://arxiv.org/abs/2503.07152).
 - [2024/11/15] Official repo is created, code will be released soon.
