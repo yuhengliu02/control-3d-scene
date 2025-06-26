@@ -10,5 +10,6 @@ Three-dimensional scene generation is crucial in computer vision, with applicati
 
 ## NEWS
 
+- [2025/06/25] Our work is accepted by ICCV 2025.
 - [2025/03/10] Our work is now on [arXiv](https://arxiv.org/abs/2503.07152).
 - [2024/11/15] Official repo is created, code will be released soon.
