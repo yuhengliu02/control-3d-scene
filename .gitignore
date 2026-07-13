@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Experiment outputs
+checkpoints/
+generated/
+runs/
+*.tar
+*.pth
+
+# Datasets and large artifacts
+data/Cartesian/
+data/CarlaSG/
+data/*.zip
+data/**/*.npy
+data/**/*.label
+data/**/*.bin
+
+# Misc
+.DS_Store

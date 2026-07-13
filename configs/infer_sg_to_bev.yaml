@@ -1,0 +1,40 @@
+stage: sg_to_bev
+mode: inference
+
+num_classes: 11
+num_road_types: 6
+node_in_channels: 34
+gnn_hidden: 32
+gnn_heads: 4
+bev_size: 64
+scene_shape: [64, 64, 8]
+diffusion_steps: 100
+auxiliary_loss_weight: 0.0005
+recon_loss_weight: 0.2
+seg_loss_weight: 0.2
+uncond_prob: 0.1
+gumbel_tau: 2.0
+overlap_move: 5
+feature_mask_ratio: 0.0
+
+sg_root: ./data/carla_scene_graph_v5
+bev_root: ./data/CarlaSG/bev
+scene_root: ./data/CarlaSG/scene
+train_split: train
+val_split: val
+
+batch_size: 4
+num_workers: 4
+num_steps: null
+generation_num: 20
+save_ply: true
+
+gpus: [0]
+num_node: 1
+node_rank: 0
+
+resume: true
+resume_path: ./checkpoints/posttrain_loc/latest.tar
+
+log_home: ./generated
+log_path: ''

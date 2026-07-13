@@ -1,0 +1,23 @@
+# Core deep-learning stack. Install a torch build that matches your CUDA first,
+# e.g. for CUDA 11.8:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu118
+torch>=2.1
+
+# Graph neural network for the scene-graph encoder.
+# torch_scatter ships as a compiled wheel; install the build matching your
+# torch/CUDA, e.g.:
+#   pip install torch_scatter -f https://data.pyg.org/whl/torch-2.7.1+cu118.html
+torch_geometric>=2.4
+torch_scatter>=2.1
+
+# Numerics / IO / utilities.
+numpy
+scipy
+pandas
+scikit-learn
+pyyaml
+numba
+einops
+tqdm
+prettytable
+tensorboard
